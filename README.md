@@ -60,3 +60,5 @@ todo-assignment
 
 Open terminal inside **backend** folder:
 
+output:
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/5611d019-3b69-4b0d-bfa2-69c100af1346" />

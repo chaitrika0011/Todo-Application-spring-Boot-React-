@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+  color: white;
+}
+
+.app {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.inputBar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.inputBar input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.inputBar button {
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  background: #4cafef;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.inputBar button:hover {
+  background: #3a9edb;
+}
+
+.todoList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.todoCard {
+  background: #2f2f46;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.todoInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.todoInfo span {
+  font-size: 16px;
+}
+
+.meta {
+  font-size: 12px;
+  opacity: 0.6;
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions button {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #4cafef;
+  color: white;
+  font-size: 12px;
+}
+
+.actions button:hover {
+  background: #3a9edb;
+}
+
+.delete {
+  background: #ff5c5c !important;
+}
+
+.delete:hover {
+  background: #e04848 !important;
+}
